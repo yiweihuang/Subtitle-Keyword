@@ -1,0 +1,22 @@
+Network Invasion
+Cyber Attack
+Peer to Peer
+Zero-day Attack
+Server-side attacks
+Landing site
+Malware site
+SYM Flooding
+authorized traffic
+packet filter
+Application Proxy
+Stateful Inspection
+public IP
+private IP
+application layer
+SOCKS proxy
+proxy server
+State table
+Screening Router
+Multi-Legged firewall
+Simple Firewall
+port number
