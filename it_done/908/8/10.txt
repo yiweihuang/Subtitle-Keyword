@@ -1,12 +1,12 @@
 (9,12) : set()
 (12,15) : {'TCP'}
-(15,18) : {'control', 'congestion'}
+(15,18) : {'congestion', 'control'}
 (18,19) : set()
 (19,23) : {'state'}
 (23,25) : set()
 (25,27) : {'state'}
 (27,30) : set()
-(30,32) : {'avoidance', 'state', 'congestion'}
+(30,32) : {'congestion', 'state', 'avoidance'}
 (33,34) : set()
 (35,37) : set()
 (38,40) : set()
@@ -30,7 +30,7 @@
 (82,85) : {'window'}
 (85,88) : {'congestion', 'window'}
 (89,91) : set()
-(91,93) : {'window', 'congestion', 'ack'}
+(91,93) : {'congestion', 'window', 'ack'}
 (93,96) : {'封包'}
 (96,97) : set()
 (98,100) : {'congestion', 'window'}
@@ -39,9 +39,9 @@
 (105,106) : set()
 (106,108) : {'congestion', 'window'}
 (108,111) : {'threshold'}
-(111,113) : {'avoidance', 'state', 'congestion'}
+(111,113) : {'congestion', 'state', 'avoidance'}
 (113,115) : set()
-(115,118) : {'avoidance', 'state', 'congestion'}
+(115,118) : {'congestion', 'state', 'avoidance'}
 (118,120) : {'ack'}
 (120,123) : set()
 (123,127) : {'ack'}
@@ -52,11 +52,11 @@
 (139,141) : {'congestion', 'window'}
 (141,143) : set()
 (143,147) : set()
-(147,151) : {'avoidance', 'congestion'}
+(147,151) : {'congestion', 'avoidance'}
 (151,154) : {'congestion', 'window'}
 (154,156) : set()
 (156,160) : {'state'}
-(160,164) : {'avoidance', 'congestion'}
+(160,164) : {'congestion', 'avoidance'}
 (165,167) : set()
 (168,170) : set()
 (170,173) : set()
@@ -64,10 +64,10 @@
 (177,181) : {'ack'}
 (181,185) : {'封包'}
 (185,187) : set()
-(187,189) : {'avoidance', 'congestion'}
+(187,189) : {'congestion', 'avoidance'}
 (189,194) : {'ack'}
 (194,196) : {'threshold'}
-(196,199) : {'window', 'congestion', 'threshold'}
+(196,199) : {'congestion', 'window', 'threshold'}
 (200,203) : set()
 (203,207) : set()
 (207,209) : {'window'}
@@ -77,7 +77,7 @@
 (214,218) : {'state'}
 (219,221) : set()
 (221,224) : set()
-(224,226) : {'state', 'congestion', 'window'}
+(224,226) : {'congestion', 'state', 'window'}
 (226,229) : set()
 (230,232) : {'threshold'}
 (232,234) : set()
@@ -114,13 +114,13 @@
 (318,320) : set()
 (320,322) : set()
 (323,325) : {'TCP'}
-(325,328) : {'control', 'congestion'}
+(325,328) : {'congestion', 'control'}
 (329,331) : {'TCP'}
 (331,332) : {'throughput'}
 (332,335) : {'throughput', 'TCP'}
 (335,338) : {'throughput'}
 (338,340) : {'throughput'}
-(340,343) : {'RTT', 'window'}
+(340,343) : {'window', 'RTT'}
 (343,346) : {'RTT'}
 (346,349) : {'throughput'}
 (349,352) : {'window'}
@@ -151,7 +151,7 @@
 (428,429) : set()
 (430,432) : set()
 (432,435) : set()
-(435,436) : {'avoidance', 'congestion'}
+(435,436) : {'congestion', 'avoidance'}
 (436,439) : set()
 (439,442) : set()
 (442,445) : {'TCP'}
@@ -180,7 +180,7 @@
 (510,513) : set()
 (513,517) : {'UDP'}
 (517,520) : {'UDP'}
-(520,522) : {'transmission', 'reliable'}
+(520,522) : {'reliable', 'transmission'}
 (522,525) : {'UDP', 'IP'}
 (525,528) : {'IP'}
 (528,531) : {'UDP', '不可靠'}
@@ -233,7 +233,7 @@
 (647,649) : set()
 (649,651) : {'state'}
 (651,655) : {'TCP'}
-(655,658) : {'state', 'diagram'}
+(655,658) : {'diagram', 'state'}
 (658,661) : set()
 (661,664) : {'state'}
 (664,667) : {'state', '封包'}
@@ -292,7 +292,7 @@
 (809,812) : {'retransmission'}
 (812,815) : {'retransmission'}
 (815,817) : set()
-(817,819) : {'control', 'TCP', 'congestion'}
+(817,819) : {'congestion', 'control', 'TCP'}
 (819,822) : set()
 (822,825) : {'TCP'}
 (825,828) : set()
@@ -344,7 +344,7 @@
 (944,947) : {'window', 'threshold'}
 (947,948) : set()
 (949,951) : set()
-(952,953) : {'congestion', 'TCP', 'window'}
+(952,953) : {'congestion', 'window', 'TCP'}
 (954,957) : {'TCP'}
 (957,960) : {'可靠'}
 (960,963) : {'service', 'reliable', 'TCP'}

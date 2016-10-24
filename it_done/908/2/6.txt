@@ -1,21 +1,21 @@
 (8,10) : set()
-(10,13) : {'CD', 'CSMA'}
-(13,16) : {'CD', 'CSMA'}
-(16,20) : {'detection', 'sense', 'carrier', 'collision'}
+(10,13) : {'CSMA', 'CD'}
+(13,16) : {'CSMA', 'CD'}
+(16,20) : {'carrier', 'detection', 'sense', 'collision'}
 (20,24) : set()
 (24,29) : {'網卡'}
 (29,33) : {'link'}
 (33,38) : {'網段'}
 (38,40) : set()
 (40,44) : {'封包'}
-(44,46) : {'sense', 'carrier'}
+(44,46) : {'carrier', 'sense'}
 (46,51) : set()
 (51,55) : set()
 (55,59) : set()
 (59,60) : set()
 (60,65) : {'封包'}
-(65,66) : {'sense', 'carrier'}
-(66,71) : {'detection', 'collision', '封包'}
+(65,66) : {'carrier', 'sense'}
+(66,71) : {'detection', '封包', 'collision'}
 (71,76) : {'封包'}
 (76,79) : set()
 (79,82) : set()
@@ -95,10 +95,10 @@
 (322,325) : set()
 (325,329) : {'collision'}
 (329,332) : set()
-(332,337) : {'CD', 'CSMA'}
+(332,337) : {'CSMA', 'CD'}
 (337,342) : {'control'}
 (342,345) : set()
-(345,350) : {'CD', 'CSMA'}
+(345,350) : {'CSMA', 'CD'}
 (350,353) : set()
 (353,356) : set()
 (356,358) : set()
@@ -130,7 +130,7 @@
 (441,444) : set()
 (444,445) : {'collision'}
 (445,448) : set()
-(448,452) : {'detection', 'CD', 'collision', 'CSMA'}
+(448,452) : {'CSMA', 'detection', 'CD', 'collision'}
 (452,455) : set()
 (455,459) : set()
 (459,463) : set()
@@ -211,7 +211,7 @@
 (702,705) : set()
 (705,709) : {'衝撞'}
 (709,713) : set()
-(713,714) : {'collision', 'window'}
+(713,714) : {'window', 'collision'}
 (714,718) : set()
 (718,721) : {'封包'}
 (721,726) : set()
@@ -226,7 +226,7 @@
 (750,756) : {'collision'}
 (756,757) : set()
 (757,763) : {'collision'}
-(763,765) : {'collision', 'window'}
+(763,765) : {'window', 'collision'}
 (765,769) : {'封包'}
 (769,774) : {'collision'}
 (774,777) : {'collision'}
@@ -253,8 +253,8 @@
 (839,842) : set()
 (842,847) : set()
 (847,850) : set()
-(850,852) : {'collision', 'window'}
-(852,858) : {'網段', 'collision', 'window'}
+(850,852) : {'window', 'collision'}
+(852,858) : {'window', 'collision', '網段'}
 (858,862) : set()
 (862,866) : set()
 (866,871) : {'collision', '封包'}

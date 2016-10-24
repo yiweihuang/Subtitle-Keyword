@@ -15,24 +15,24 @@
 (87,92) : {'application'}
 (92,96) : {'application'}
 (96,100) : {'application'}
-(100,108) : {'application', '封包'}
-(108,114) : {'application', '封包'}
+(100,108) : {'封包', 'application'}
+(108,114) : {'封包', 'application'}
 (114,118) : {'application'}
-(118,124) : {'application', '封包'}
+(118,124) : {'封包', 'application'}
 (124,127) : {'application'}
 (127,133) : {'application'}
-(133,141) : {'service', 'reliable'}
-(141,144) : {'sliding', 'window'}
-(144,150) : {'sliding', 'sequence', 'window'}
+(133,141) : {'reliable', 'service'}
+(141,144) : {'window', 'sliding'}
+(144,150) : {'window', 'sliding', 'sequence'}
 (150,154) : {'sequence'}
-(154,161) : {'sequence', '封包'}
-(161,164) : {'sliding', 'window'}
-(164,169) : {'receiver', 'sliding', 'window'}
+(154,161) : {'封包', 'sequence'}
+(161,164) : {'window', 'sliding'}
+(164,169) : {'window', 'sliding', 'receiver'}
 (169,176) : {'window', 'receiver', 'sequence', '封包'}
 (176,183) : {'sequence'}
-(183,187) : {'sliding', 'window'}
-(187,194) : {'sliding', 'link', 'sequence', 'window'}
-(194,200) : {'sequence', '封包'}
+(183,187) : {'window', 'sliding'}
+(187,194) : {'sliding', 'window', 'link', 'sequence'}
+(194,200) : {'封包', 'sequence'}
 (200,207) : set()
 (207,211) : set()
 (211,218) : {'sequence'}
@@ -50,10 +50,10 @@
 (276,279) : set()
 (279,288) : {'sequence'}
 (288,297) : set()
-(297,304) : {'sequence', '封包'}
+(297,304) : {'封包', 'sequence'}
 (304,307) : set()
 (307,312) : {'sequence'}
-(312,321) : {'sequence', '封包'}
+(312,321) : {'封包', 'sequence'}
 (321,324) : {'sequence'}
 (324,328) : set()
 (328,332) : {'sequence'}
@@ -80,11 +80,11 @@
 (441,445) : set()
 (445,450) : set()
 (450,458) : {'通訊'}
-(458,463) : {'TCP', '封包'}
+(458,463) : {'封包', 'TCP'}
 (463,468) : set()
 (468,473) : set()
 (473,479) : {'封包'}
-(479,484) : {'通訊', '封包'}
+(479,484) : {'封包', '通訊'}
 (484,491) : {'封包'}
 (491,497) : set()
 (497,503) : {'封包'}
@@ -171,7 +171,7 @@
 (989,995) : set()
 (995,1001) : {'window'}
 (1001,1006) : {'control'}
-(1006,1016) : {'receiver', 'control'}
+(1006,1016) : {'control', 'receiver'}
 (1016,1022) : {'window'}
 (1022,1032) : set()
 (1032,1037) : set()
@@ -183,9 +183,9 @@
 (1073,1079) : {'receiver'}
 (1079,1087) : {'封包'}
 (1087,1096) : set()
-(1096,1103) : {'control', 'congestion'}
-(1103,1110) : {'receiver', 'internet', 'congestion'}
-(1110,1114) : {'internet', 'congestion'}
+(1096,1103) : {'congestion', 'control'}
+(1103,1110) : {'congestion', 'receiver', 'internet'}
+(1110,1114) : {'congestion', 'internet'}
 (1114,1119) : set()
 (1119,1127) : set()
 (1127,1130) : set()
@@ -211,7 +211,7 @@
 (1227,1231) : set()
 (1231,1235) : set()
 (1235,1242) : {'封包'}
-(1242,1248) : {'service', 'reliable'}
+(1242,1248) : {'reliable', 'service'}
 (1248,1255) : set()
 (1255,1261) : set()
 (1261,1264) : set()

@@ -32,7 +32,7 @@
 (138,142) : set()
 (142,146) : set()
 (146,149) : set()
-(149,154) : {'terminal', 'node', 'hidden'}
+(149,154) : {'node', 'hidden', 'terminal'}
 (154,157) : {'node', 'hidden'}
 (157,161) : set()
 (161,167) : set()
@@ -44,7 +44,7 @@
 (184,187) : set()
 (187,190) : set()
 (190,193) : set()
-(193,196) : {'terminal', 'hidden'}
+(193,196) : {'hidden', 'terminal'}
 (196,198) : set()
 (198,203) : {'node'}
 (204,208) : set()
@@ -118,7 +118,7 @@
 (466,467) : {'collision'}
 (467,471) : set()
 (471,474) : set()
-(474,476) : {'衝撞', 'collision'}
+(474,476) : {'collision', '衝撞'}
 (476,480) : set()
 (480,484) : set()
 (484,487) : set()
@@ -145,11 +145,11 @@
 (539,543) : {'封包'}
 (543,547) : {'封包'}
 (547,551) : {'detection', 'collision'}
-(551,553) : {'CD', 'CSMA'}
+(551,553) : {'CSMA', 'CD'}
 (553,558) : {'封包'}
-(558,563) : {'collision', 'window'}
+(558,563) : {'window', 'collision'}
 (563,567) : {'collision'}
-(567,572) : {'jam', 'collision'}
+(567,572) : {'collision', 'jam'}
 (572,578) : set()
 (578,583) : {'collision'}
 (583,587) : {'node', 'hidden'}
@@ -171,7 +171,7 @@
 (645,648) : set()
 (648,653) : {'封包'}
 (653,657) : {'collision'}
-(657,659) : {'terminal', 'hidden'}
+(657,659) : {'hidden', 'terminal'}
 (659,663) : {'collision'}
 (663,666) : set()
 (666,671) : {'detection', 'collision'}
@@ -181,7 +181,7 @@
 (680,684) : {'node', 'hidden'}
 (684,687) : set()
 (687,689) : set()
-(689,692) : {'exposed', 'node'}
+(689,692) : {'node', 'exposed'}
 (692,695) : {'node', 'hidden'}
 (695,699) : set()
 (699,701) : {'exposed'}
@@ -194,7 +194,7 @@
 (730,733) : {'communication'}
 (733,738) : set()
 (738,742) : set()
-(742,746) : {'exposed', 'node'}
+(742,746) : {'node', 'exposed'}
 (746,750) : set()
 (750,755) : set()
 (755,757) : set()
@@ -202,7 +202,7 @@
 (761,766) : {'collision', '封包'}
 (766,770) : {'collision'}
 (770,773) : set()
-(773,777) : {'exposed', 'node'}
+(773,777) : {'node', 'exposed'}
 (777,779) : set()
 (779,785) : set()
 (785,787) : set()
@@ -217,7 +217,7 @@
 (822,826) : set()
 (826,832) : set()
 (832,837) : set()
-(837,842) : {'exposed', 'collision', 'node'}
+(837,842) : {'node', 'exposed', 'collision'}
 (842,848) : set()
 (848,851) : set()
 (851,855) : set()
@@ -235,21 +235,21 @@
 (902,904) : {'collision'}
 (904,909) : set()
 (909,912) : {'node', 'hidden'}
-(912,915) : {'exposed', 'node'}
+(912,915) : {'node', 'exposed'}
 (915,917) : set()
 (917,920) : set()
 (920,924) : set()
 (924,927) : set()
-(927,931) : {'CA', 'CSMA'}
+(927,931) : {'CSMA', 'CA'}
 (931,935) : set()
 (935,938) : set()
 (938,940) : set()
 (940,943) : {'node', 'hidden'}
-(943,947) : {'exposed', 'node'}
+(943,947) : {'node', 'exposed'}
 (947,953) : set()
-(953,955) : {'sense', 'carrier'}
-(955,958) : {'avoidance', 'collision'}
-(958,963) : {'avoidance', 'collision', 'CSMA', 'CA'}
+(953,955) : {'carrier', 'sense'}
+(955,958) : {'collision', 'avoidance'}
+(958,963) : {'CSMA', 'avoidance', 'CA', 'collision'}
 (963,968) : {'collision'}
 (968,971) : {'detection', 'collision'}
 (971,974) : set()

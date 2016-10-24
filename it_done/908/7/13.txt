@@ -1,7 +1,7 @@
 (8,12) : set()
 (12,14) : {'distance'}
 (14,17) : {'distance'}
-(17,21) : {'router', 'node'}
+(17,21) : {'node', 'router'}
 (21,23) : set()
 (23,28) : set()
 (28,30) : {'distance'}
@@ -11,7 +11,7 @@
 (42,47) : {'node', 'distance'}
 (47,50) : {'distance'}
 (50,53) : {'router'}
-(53,56) : {'router', 'node'}
+(53,56) : {'node', 'router'}
 (56,61) : set()
 (61,63) : {'distance'}
 (63,66) : set()
@@ -94,7 +94,7 @@
 (330,333) : set()
 (333,336) : set()
 (336,340) : set()
-(340,345) : {'routing', 'node'}
+(340,345) : {'node', 'routing'}
 (345,349) : set()
 (349,353) : set()
 (353,356) : set()
@@ -170,7 +170,7 @@
 (585,590) : {'routing'}
 (590,590) : set()
 (590,594) : {'node'}
-(594,598) : {'routing', 'node'}
+(594,598) : {'node', 'routing'}
 (598,603) : set()
 (603,607) : {'node'}
 (607,612) : {'distance'}
@@ -192,7 +192,7 @@
 (670,673) : set()
 (673,679) : set()
 (679,681) : {'distance'}
-(681,685) : {'router', 'distance'}
+(681,685) : {'distance', 'router'}
 (685,687) : set()
 (687,691) : {'routing'}
 (691,693) : {'routing'}

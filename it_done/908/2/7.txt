@@ -1,10 +1,10 @@
 (9,10) : set()
-(10,12) : {'collision', 'window'}
+(10,12) : {'window', 'collision'}
 (12,15) : set()
 (15,19) : {'封包'}
 (19,21) : {'collision'}
-(21,23) : {'collision', 'window'}
-(23,25) : {'collision', 'window'}
+(21,23) : {'window', 'collision'}
+(23,25) : {'window', 'collision'}
 (25,30) : set()
 (30,34) : set()
 (34,38) : {'window', 'collision', 'delay'}
@@ -19,7 +19,7 @@
 (66,68) : set()
 (68,71) : {'衝撞'}
 (71,73) : set()
-(73,78) : {'衝撞', 'collision'}
+(73,78) : {'collision', '衝撞'}
 (78,81) : set()
 (81,84) : set()
 (84,87) : {'collision'}
@@ -31,7 +31,7 @@
 (103,109) : set()
 (109,113) : set()
 (113,116) : set()
-(116,118) : {'propagation', 'delay'}
+(116,118) : {'delay', 'propagation'}
 (118,120) : set()
 (120,124) : set()
 (124,127) : set()
@@ -151,7 +151,7 @@
 (543,548) : set()
 (548,550) : set()
 (550,556) : {'collision', '封包'}
-(556,560) : {'collision', 'window'}
+(556,560) : {'window', 'collision'}
 (560,563) : set()
 (563,568) : set()
 (568,572) : set()
@@ -165,8 +165,8 @@
 (592,595) : {'collision', '封包'}
 (595,598) : set()
 (598,603) : set()
-(603,607) : {'latency', 'link'}
-(607,610) : {'link', 'propagation', 'delay'}
+(603,607) : {'link', 'latency'}
+(607,610) : {'link', 'delay', 'propagation'}
 (610,612) : set()
 (612,615) : set()
 (615,620) : set()

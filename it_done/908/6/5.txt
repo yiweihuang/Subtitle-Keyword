@@ -1,4 +1,4 @@
-(9,12) : {'sliding', 'window'}
+(9,12) : {'window', 'sliding'}
 (12,16) : set()
 (16,18) : set()
 (18,23) : set()
@@ -28,7 +28,7 @@
 (105,109) : set()
 (109,111) : set()
 (111,115) : {'ACK'}
-(115,118) : {'sliding', 'window'}
+(115,118) : {'window', 'sliding'}
 (118,121) : set()
 (121,125) : {'封包'}
 (125,127) : {'ACK'}
@@ -36,7 +36,7 @@
 (132,136) : {'ACK', '封包'}
 (136,137) : {'ACK'}
 (137,139) : {'封包'}
-(139,141) : {'sliding', 'window'}
+(139,141) : {'window', 'sliding'}
 (141,147) : set()
 (147,153) : {'頻寬', 'link'}
 (153,156) : set()
@@ -69,7 +69,7 @@
 (256,259) : set()
 (259,262) : {'acknowledgement'}
 (262,264) : set()
-(264,267) : {'receiver', 'acknowledgement'}
+(264,267) : {'acknowledgement', 'receiver'}
 (267,269) : {'acknowledgement'}
 (269,270) : set()
 (270,274) : set()
@@ -107,7 +107,7 @@
 (380,384) : {'acknowledgement'}
 (384,388) : set()
 (388,391) : {'frame'}
-(391,395) : {'receiver', 'frame'}
+(391,395) : {'frame', 'receiver'}
 (395,401) : {'ACK', 'frame'}
 (401,403) : {'ACK', 'frame'}
 (403,409) : {'ACK'}
@@ -131,7 +131,7 @@
 (466,469) : {'ACK'}
 (469,472) : {'ACK'}
 (472,476) : {'ACK', '封包'}
-(476,479) : {'acknowledgement', 'ACK'}
+(476,479) : {'ACK', 'acknowledgement'}
 (479,482) : set()
 (482,486) : {'ACK'}
 (486,490) : {'ACK'}
@@ -140,11 +140,11 @@
 (497,500) : {'acknowledgement'}
 (500,503) : {'ACK'}
 (503,508) : {'封包'}
-(508,513) : {'receiver', 'ACK'}
+(508,513) : {'ACK', 'receiver'}
 (513,517) : {'ACK', '封包'}
 (517,521) : {'acknowledgement'}
 (521,524) : {'acknowledgement'}
-(524,530) : {'receiver', 'ACK', '封包'}
+(524,530) : {'ACK', 'receiver', '封包'}
 (530,533) : set()
 (533,539) : set()
 (539,545) : {'封包'}
@@ -163,8 +163,8 @@
 (597,601) : set()
 (601,605) : set()
 (605,608) : set()
-(608,612) : {'sliding', 'window'}
-(612,616) : {'receiver', 'window'}
+(608,612) : {'window', 'sliding'}
+(612,616) : {'window', 'receiver'}
 (616,619) : {'window'}
 (619,623) : {'window'}
 (623,628) : {'window'}
@@ -181,7 +181,7 @@
 (664,667) : {'pipe'}
 (667,670) : {'receiver'}
 (670,672) : set()
-(672,676) : {'bandwidth', 'delay'}
+(672,676) : {'delay', 'bandwidth'}
 (676,680) : set()
 (680,684) : {'window'}
 (684,687) : set()
@@ -194,25 +194,25 @@
 (707,711) : set()
 (711,714) : set()
 (714,717) : set()
-(717,721) : {'receiver', 'window'}
+(717,721) : {'window', 'receiver'}
 (721,724) : {'buffer'}
 (724,727) : {'buffer'}
 (727,731) : {'window'}
 (731,733) : set()
 (733,737) : {'buffer'}
 (737,739) : set()
-(739,745) : {'buffer', '封包'}
+(739,745) : {'封包', 'buffer'}
 (745,749) : set()
 (749,754) : set()
 (754,758) : {'buffer'}
 (758,759) : set()
 (759,764) : {'buffer'}
 (764,768) : {'receiver'}
-(768,773) : {'buffer', '封包'}
+(768,773) : {'封包', 'buffer'}
 (773,779) : {'封包'}
-(779,783) : {'receiver', 'window'}
+(779,783) : {'window', 'receiver'}
 (783,789) : set()
-(790,793) : {'receiver', 'window'}
+(790,793) : {'window', 'receiver'}
 (793,797) : set()
 (797,799) : {'receiver'}
 (799,800) : set()
@@ -239,7 +239,7 @@
 (866,868) : set()
 (868,873) : set()
 (873,876) : set()
-(876,881) : {'receiver', 'window'}
+(876,881) : {'window', 'receiver'}
 (881,885) : set()
 (885,889) : set()
 (889,892) : set()
@@ -254,7 +254,7 @@
 (922,926) : {'window'}
 (926,928) : set()
 (928,930) : set()
-(930,937) : {'receiver', 'window'}
+(930,937) : {'window', 'receiver'}
 (937,943) : {'window'}
 (943,945) : set()
 (945,949) : set()
