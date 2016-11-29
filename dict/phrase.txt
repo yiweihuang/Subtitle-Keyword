@@ -20,3 +20,18 @@ Screening Router
 Multi-Legged firewall
 Simple Firewall
 port number
+Light board
+Channel Box
+UI Elements
+Insert Edge Loop
+Multi Cut
+Edit Mesh
+Edge Vertex
+mental ray
+Center Pivot
+Print Scr
+center pivot
+Control Vertex
+curve tools
+control vertex
+Print screen

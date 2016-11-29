@@ -1,0 +1,157 @@
+MAYA
+介面環境
+學習軟體
+3D
+虛擬空間
+虛擬
+三維
+座標
+XYZ
+空間模式
+虛擬攝影機
+視角
+物件模式
+子物件模式
+點線面
+空間
+Icon
+Autodesk
+模組化
+Modeling
+建模
+骨架
+Animation
+FX
+Rendering
+跑圖
+Surfaces
+NURBS
+Polygons
+刪除工具列
+my_modeling_tool
+快速視窗
+快速欄鍵
+透視視窗
+平面視窗
+前視圖
+側視圖
+Display
+圖層管理
+虛擬座標
+軸向
+Plane
+圓錐
+Cube
+圓柱體
+導角
+專案檔
+Illustrator
+線架構
+填色
+微調
+Duplicate
+outliner
+後視圖
+網格
+Grid
+rerun
+UI
+Photoshop
+Light board
+加線
+導角
+Extrude
+塑模
+面數
+複雜化
+Insert Edge Loop
+Multi Cut
+複合性
+低面數
+邊緣
+銳利度
+NURBS
+柔化
+圓球
+弧度
+圓滑
+側面圖
+縮放
+型塑
+Mesh
+Edit Mesh
+MeshTools
+Circle
+縱向線
+Edge Vertex
+刪線
+廢點
+凹痕
+Low Polygon
+銳利
+Smooth
+虛擬柔化
+mental ray
+複合
+布林
+combine
+內縮
+外拉
+初階
+中階
+複合座標
+等比縮放
+疊面
+圓柱體
+波浪狀
+圓錐體
+Outliner
+圖層
+分割面
+三視圖
+填色
+雛型
+正方體
+中心點
+紋路
+Center Pivot
+擷取畫面
+Print Scr
+curves
+曲線
+Nurbs
+extrude
+分割數
+螺旋
+扭曲
+taper
+CV
+EP
+貝茲曲曲線
+貝茲曲線
+center pivot
+Separate
+路徑
+curve tools
+CV線
+貝茲
+Control Vertex
+弧線點
+上視圖
+CVtool
+CP
+Division
+Twist
+control vertex
+佈線
+freeze
+移動座標
+方位座標
+分岔
+橫向
+縱向
+橢圓
+cv
+ep
+初模
+Print screen
