@@ -91,7 +91,6 @@ Low Polygon
 銳利
 Smooth
 虛擬柔化
-mental ray
 複合
 布林
 combine
@@ -155,3 +154,88 @@ cv
 ep
 初模
 Print screen
+攝影機
+燈光
+算圖
+陰影
+景深
+算圖引擎
+Render View
+貼圖
+拍攝框
+觀景窗
+直接照射
+間接照射
+反射
+對應
+漫射
+協調性
+環境光
+定向光點
+光
+聚光燈
+區域光
+體積光
+放射狀
+光暈
+Create Reference
+Import
+造型
+旋轉角度
+位置移動
+Aim
+Aim and Up
+立體相機
+多立體相機
+立體影像
+3D影像
+COPY
+Group
+unGroup
+undo
+parent
+resolution gate
+發散體
+點光
+線性光
+區光
+SPOT
+Look Through Selectd
+shadow
+深度貼圖
+光跡追蹤
+mental ray
+dpi
+共通區
+Raytracing
+target
+目標座標
+柔焦效果
+淡化
+衰減
+遞減
+補光
+剪影
+打光
+render view
+sRGB
+gamma
+色彩管理系統
+RAW emage
+RAW
+精細度
+交疊
+焦距
+Locator
+輔助器
+柔焦
+heads up
+抬頭顯示
+bject detail
+光圈
+模糊度
+low quality
+raw image
+顯色
+色階
+邊緣柔化

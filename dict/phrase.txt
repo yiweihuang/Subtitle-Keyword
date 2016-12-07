@@ -35,3 +35,14 @@ Control Vertex
 curve tools
 control vertex
 Print screen
+Render View
+Create Reference
+Aim and Up
+resolution gate
+Look Through Selectd
+mental ray
+render view
+RAW emage
+heads up
+bject detail
+low quality
