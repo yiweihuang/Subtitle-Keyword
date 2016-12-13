@@ -46,3 +46,10 @@ RAW emage
 heads up
 bject detail
 low quality
+Phong E
+Rendering Editor
+Mental Ray
+Cut UV
+Un Pin
+Snap shoot
+alpha channel

@@ -239,3 +239,58 @@ raw image
 顯色
 色階
 邊緣柔化
+材質球
+UV編輯視窗
+Hypershade
+預覽區
+屬性區
+Lambert
+Blinn
+Phong
+Phong E
+2D貼圖
+3D貼圖
+UV
+Rendering Editor
+Mental Ray
+specular
+鏡射
+color
+透明度
+半透明
+Bump貼圖
+凹凸貼圖
+反光
+亮光
+全區光源
+mentalray
+折射
+折射率
+Cut UV
+Edges
+unfold
+Pack
+Pin
+Un Pin
+染色
+Snap shoot
+快拍
+Targa檔
+alpha channel
+Tiff檔
+outUV
+gride
+縫痕
+logo
+商標
+重複性
+水平反轉
+垂直反轉
+局部拆解
+包裹定位
+planar
+包裹法
+定位
+拆解
+整體縮放
+縫合
