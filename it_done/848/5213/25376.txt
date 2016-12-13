@@ -1,7 +1,7 @@
 (0,4) : {'防火牆'}
 (4,5) : {'Firewall'}
 (5,9) : set()
-(9,11) : {'Screening', 'Router'}
+(9,11) : {'Router', 'Screening'}
 (11,14) : set()
 (14,18) : {'ACL'}
 (18,22) : {'Router'}
@@ -18,17 +18,17 @@
 (54,56) : {'Router'}
 (56,57) : {'Firewall', 'Simple'}
 (57,59) : {'firewall'}
-(59,62) : {'Screening', 'Router'}
-(62,65) : {'Screening', 'Router'}
+(59,62) : {'Router', 'Screening'}
+(62,65) : {'Router', 'Screening'}
 (65,70) : {'保護', 'ACL'}
 (70,72) : set()
 (72,78) : {'Router', 'application'}
 (78,82) : set()
 (82,85) : {'IP'}
-(85,88) : {'number', 'port'}
+(85,88) : {'port', 'number'}
 (88,92) : set()
 (92,94) : {'IP'}
-(94,98) : {'number', 'port'}
+(94,98) : {'port', 'number'}
 (98,101) : set()
 (101,104) : {'packet'}
 (104,107) : {'policy'}
@@ -43,8 +43,8 @@
 (138,142) : set()
 (142,145) : set()
 (145,149) : set()
-(149,152) : {'Screening', 'Router'}
-(152,156) : {'Screening', 'Router'}
+(149,152) : {'Router', 'Screening'}
+(152,156) : {'Router', 'Screening'}
 (156,160) : set()
 (160,162) : set()
 (162,165) : {'保護'}
@@ -54,7 +54,7 @@
 (176,179) : {'ACL'}
 (179,182) : {'ACL'}
 (182,185) : set()
-(185,187) : {'Screening', 'Router'}
+(185,187) : {'Router', 'Screening'}
 (187,193) : set()
 (193,195) : set()
 (195,198) : {'Firewall', 'Simple'}
@@ -66,7 +66,7 @@
 (219,224) : set()
 (224,228) : set()
 (228,233) : {'保護'}
-(233,238) : {'Screening', 'Router'}
+(233,238) : {'Router', 'Screening'}
 (238,243) : {'DMZ'}
 (243,247) : set()
 (247,250) : set()
@@ -88,10 +88,10 @@
 (311,317) : set()
 (317,322) : set()
 (322,326) : set()
-(326,328) : {'Screening', 'Router'}
+(326,328) : {'Router', 'Screening'}
 (328,331) : {'Router'}
 (331,335) : {'Firewall'}
-(335,339) : {'Screening', 'Router'}
+(335,339) : {'Router', 'Screening'}
 (339,343) : {'防火牆'}
 (343,348) : {'Firewall', 'Simple'}
 (348,354) : {'Firewall'}
@@ -152,7 +152,7 @@
 (553,555) : {'保護'}
 (555,558) : {'Firewall'}
 (558,560) : {'防火牆'}
-(560,564) : {'Firewall', 'Screening', 'Router'}
+(560,564) : {'Router', 'Firewall', 'Screening'}
 (564,567) : {'保護'}
 (567,573) : set()
 (573,577) : set()
@@ -169,7 +169,7 @@
 (615,618) : set()
 (618,623) : {'server'}
 (623,625) : set()
-(625,627) : {'Firewall', 'Screening'}
+(625,627) : {'Screening', 'Firewall'}
 (627,629) : {'Firewall', 'Simple'}
 (629,632) : {'server'}
 (632,635) : {'Firewall'}
@@ -187,7 +187,7 @@
 (670,671) : set()
 (671,675) : set()
 (675,679) : set()
-(679,682) : {'稽核', 'audit'}
+(679,682) : {'audit', '稽核'}
 (682,686) : {'稽核'}
 (686,690) : set()
 (690,692) : set()

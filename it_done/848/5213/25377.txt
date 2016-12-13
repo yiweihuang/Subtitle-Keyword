@@ -1,7 +1,7 @@
 (0,3) : set()
-(3,6) : {'ACL', '防火牆'}
+(3,6) : {'防火牆', 'ACL'}
 (6,7) : {'Iptable'}
-(7,12) : {'Ip6tables', 'IPv6'}
+(7,12) : {'IPv6', 'Ip6tables'}
 (12,16) : {'table'}
 (16,18) : {'防火牆'}
 (18,21) : set()
@@ -36,7 +36,7 @@
 (111,116) : {'table'}
 (116,120) : {'filter', 'table'}
 (120,125) : {'filter', 'table'}
-(125,129) : {'filter', 'table', 'chain'}
+(125,129) : {'filter', 'chain', 'table'}
 (129,132) : {'chain'}
 (132,137) : {'filter', 'table'}
 (137,139) : {'chain'}

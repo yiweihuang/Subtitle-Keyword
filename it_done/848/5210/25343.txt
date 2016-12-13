@@ -1,5 +1,5 @@
 (0,2) : set()
-(2,6) : {'Level', 'Firewall', 'Application'}
+(2,6) : {'Application', 'Firewall', 'Level'}
 (6,8) : {'Application', 'proxy'}
 (8,13) : {'保護'}
 (13,18) : set()
@@ -9,7 +9,7 @@
 (26,30) : {'proxy'}
 (30,31) : set()
 (31,35) : {'proxy'}
-(35,39) : {'proxy', 'server'}
+(35,39) : {'server', 'proxy'}
 (39,41) : set()
 (41,46) : {'server'}
 (46,49) : {'proxy'}
@@ -17,7 +17,7 @@
 (52,55) : {'攔截'}
 (55,59) : {'server'}
 (59,62) : {'proxy'}
-(62,65) : {'proxy', 'server'}
+(62,65) : {'server', 'proxy'}
 (65,68) : {'server'}
 (68,71) : set()
 (71,72) : set()
@@ -26,7 +26,7 @@
 (81,84) : set()
 (84,87) : {'IP'}
 (87,91) : set()
-(91,93) : {'proxy', 'application'}
+(91,93) : {'application', 'proxy'}
 (93,95) : {'application'}
 (95,100) : {'application'}
 (100,106) : {'application'}
@@ -47,7 +47,7 @@
 (153,157) : set()
 (157,161) : {'filter', 'packet'}
 (161,163) : set()
-(163,167) : {'proxy', 'application'}
+(163,167) : {'application', 'proxy'}
 (167,170) : set()
 (170,172) : set()
 (172,176) : set()
@@ -60,7 +60,7 @@
 (195,199) : set()
 (199,204) : {'server'}
 (204,209) : {'proxy'}
-(209,214) : {'proxy', 'server'}
+(209,214) : {'server', 'proxy'}
 (214,217) : set()
 (217,221) : {'data', 'packet'}
 (221,225) : set()
@@ -89,14 +89,14 @@
 (317,321) : {'proxy'}
 (321,324) : {'application'}
 (327,327) : {'application'}
-(327,332) : {'proxy', 'application'}
+(327,332) : {'application', 'proxy'}
 (332,336) : {'application'}
 (336,338) : set()
 (338,341) : {'proxy'}
 (341,345) : set()
 (345,350) : set()
 (350,354) : {'proxy'}
-(354,358) : {'proxy', 'application'}
+(354,358) : {'application', 'proxy'}
 (358,362) : {'application'}
 (362,365) : {'application'}
 (365,368) : set()
@@ -119,7 +119,7 @@
 (415,417) : {'server'}
 (417,419) : {'server'}
 (419,423) : set()
-(423,428) : {'proxy', 'application'}
+(423,428) : {'application', 'proxy'}
 (428,431) : set()
 (431,435) : set()
 (435,441) : {'server'}
