@@ -61,7 +61,7 @@ weeks_dir_path_in = 'Subtitle-Keyword/to_weeks/' + cid + '/'
 weeks_dir_path_out = 'Subtitle-Keyword/to_weeks_preprocessed/' + cid + '/'
 
 # outfile_dir =inFileName+'precessed.csv'
-timeSequence = 14  # every 30 second is a sequence
+timeSequence = 40  # every 30 second is a sequence
 totalTime = 0
 outHash = {}
 
