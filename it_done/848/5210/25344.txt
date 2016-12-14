@@ -1,4 +1,4 @@
-(0,3) : {'SOCKS', 'proxy'}
+(0,3) : {'proxy', 'SOCKS'}
 (3,6) : set()
 (6,10) : {'proxy'}
 (10,14) : {'application'}
@@ -9,12 +9,12 @@
 (31,35) : set()
 (35,40) : {'application'}
 (40,43) : {'proxy'}
-(43,47) : {'SOCKS', 'Proxy'}
+(43,47) : {'Proxy', 'SOCKS'}
 (47,54) : set()
 (54,58) : {'application'}
 (58,62) : set()
 (62,65) : {'application'}
-(65,69) : {'SOCKS', 'Proxy'}
+(65,69) : {'Proxy', 'SOCKS'}
 (69,72) : {'proxy'}
 (72,77) : {'authentication'}
 (77,79) : {'認證'}
@@ -24,7 +24,7 @@
 (89,92) : {'認證', '合法'}
 (92,95) : set()
 (95,97) : set()
-(97,101) : {'SOCKS', 'proxy'}
+(97,101) : {'proxy', 'SOCKS'}
 (101,105) : {'防火牆'}
 (105,109) : {'防火牆'}
 (109,113) : {'SOCKS'}
@@ -77,13 +77,13 @@
 (277,280) : {'data'}
 (280,282) : {'server'}
 (282,289) : set()
-(289,292) : {'SOCKS', 'proxy'}
+(289,292) : {'proxy', 'SOCKS'}
 (292,295) : {'application'}
 (295,299) : {'application'}
 (299,300) : set()
 (300,304) : set()
 (304,309) : {'SOCKS'}
-(309,314) : {'application', 'proxy'}
+(309,314) : {'proxy', 'application'}
 (314,317) : set()
 (317,321) : {'proxy'}
 (321,325) : {'proxy'}
@@ -112,14 +112,14 @@
 (409,411) : set()
 (411,417) : {'proxy'}
 (417,419) : set()
-(419,422) : {'application', 'proxy'}
+(419,422) : {'proxy', 'application'}
 (422,426) : {'application'}
 (426,428) : {'proxy'}
 (428,432) : {'proxy'}
 (432,437) : {'proxy'}
 (437,443) : set()
 (443,446) : set()
-(446,449) : {'server', 'proxy'}
+(446,449) : {'proxy', 'server'}
 (449,453) : {'proxy'}
 (453,455) : set()
 (455,457) : {'proxy'}
@@ -127,7 +127,7 @@
 (461,465) : set()
 (465,469) : {'proxy'}
 (469,474) : set()
-(474,475) : {'server', 'proxy'}
+(474,475) : {'proxy', 'server'}
 (475,478) : set()
 (478,482) : set()
 (482,485) : {'proxy'}
