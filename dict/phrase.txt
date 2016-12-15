@@ -53,3 +53,5 @@ Cut UV
 Un Pin
 Snap shoot
 alpha channel
+Key pose
+Hook Up
