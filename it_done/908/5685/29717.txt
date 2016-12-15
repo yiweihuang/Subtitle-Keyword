@@ -7,7 +7,7 @@
 (23,25) : {'window', 'collision'}
 (25,30) : set()
 (30,34) : set()
-(34,38) : {'delay', 'window', 'collision'}
+(34,38) : {'window', 'delay', 'collision'}
 (38,41) : set()
 (41,45) : set()
 (45,50) : set()

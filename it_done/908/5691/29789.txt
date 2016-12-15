@@ -177,9 +177,9 @@
 (509,510) : {'封包'}
 (510,514) : {'RTT'}
 (514,516) : set()
-(517,520) : {'congestion', 'RTT', 'window'}
+(517,520) : {'congestion', 'window', 'RTT'}
 (521,524) : {'ack'}
-(525,528) : {'ack', 'congestion', 'window'}
+(525,528) : {'congestion', 'window', 'ack'}
 (528,532) : set()
 (532,536) : set()
 (537,541) : set()
@@ -258,13 +258,13 @@
 (767,769) : {'threshold'}
 (769,773) : set()
 (773,775) : set()
-(775,776) : {'avoidance', 'congestion'}
+(775,776) : {'congestion', 'avoidance'}
 (777,780) : set()
 (780,782) : set()
 (782,784) : {'threshold'}
 (784,787) : set()
 (787,791) : set()
-(791,794) : {'avoidance', 'congestion'}
+(791,794) : {'congestion', 'avoidance'}
 (794,798) : set()
 (798,801) : {'ack'}
 (801,806) : {'ack'}

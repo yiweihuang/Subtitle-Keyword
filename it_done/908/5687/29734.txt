@@ -1,5 +1,5 @@
 (9,11) : set()
-(11,14) : {'tree', 'algorithm', 'spanning', 'bridge'}
+(11,14) : {'bridge', 'tree', 'spanning', 'algorithm'}
 (14,16) : set()
 (16,21) : {'bridge'}
 (21,24) : {'bridge'}
@@ -23,7 +23,7 @@
 (75,81) : {'bridge', 'LAN'}
 (81,84) : {'local', 'LAN'}
 (84,87) : {'bridge'}
-(87,92) : {'logical', 'bridge', 'LAN'}
+(87,92) : {'bridge', 'logical', 'LAN'}
 (92,96) : {'logical', 'LAN'}
 (96,98) : set()
 (98,101) : {'bridge', 'LAN'}
@@ -64,7 +64,7 @@
 (208,213) : {'logical', 'LAN'}
 (213,218) : {'bridge'}
 (218,220) : set()
-(220,224) : {'forwarding', 'frame', 'bridge'}
+(220,224) : {'bridge', 'frame', 'forwarding'}
 (224,228) : {'封包'}
 (228,231) : {'filtering'}
 (231,234) : set()
@@ -87,8 +87,8 @@
 (280,281) : set()
 (281,284) : set()
 (284,289) : set()
-(289,292) : {'tree', 'algorithm', 'spanning'}
-(292,295) : {'tree', 'algorithm', 'loop', 'spanning'}
+(289,292) : {'tree', 'spanning', 'algorithm'}
+(292,295) : {'tree', 'spanning', 'loop', 'algorithm'}
 (295,297) : set()
 (297,301) : {'bridge'}
 (301,302) : set()
@@ -101,7 +101,7 @@
 (320,322) : set()
 (322,326) : set()
 (326,328) : set()
-(328,331) : {'buffer', 'bridge'}
+(328,331) : {'bridge', 'buffer'}
 (331,334) : {'congestion', 'control'}
 (334,336) : {'filtering'}
 (336,340) : set()
@@ -109,7 +109,7 @@
 (343,347) : set()
 (347,350) : set()
 (350,355) : {'通訊'}
-(355,359) : {'filtering', 'database'}
+(355,359) : {'database', 'filtering'}
 (359,361) : set()
 (361,364) : {'通訊'}
 (364,366) : set()
@@ -146,13 +146,13 @@
 (461,466) : set()
 (466,468) : set()
 (468,470) : set()
-(470,473) : {'buffer', 'bridge'}
+(470,473) : {'bridge', 'buffer'}
 (473,479) : set()
-(479,485) : {'buffer', '封包'}
+(479,485) : {'封包', 'buffer'}
 (486,490) : {'routing'}
 (490,492) : {'routing'}
 (492,496) : {'封包'}
-(496,500) : {'filtering', 'forwarding'}
+(496,500) : {'forwarding', 'filtering'}
 (500,503) : {'bridge'}
 (503,506) : set()
 (506,508) : set()
@@ -160,9 +160,9 @@
 (512,515) : set()
 (515,521) : {'bridge', 'LAN'}
 (521,524) : set()
-(524,526) : {'BLAN', 'bridge', 'LAN'}
-(526,529) : {'BLAN', 'bridge', 'LAN'}
-(529,534) : {'digital', 'bridge', 'LAN'}
+(524,526) : {'bridge', 'BLAN', 'LAN'}
+(526,529) : {'bridge', 'BLAN', 'LAN'}
+(529,534) : {'bridge', 'digital', 'LAN'}
 (534,538) : {'bridge'}
 (538,541) : {'bridge', 'LAN'}
 (541,546) : {'bridge', 'LAN'}
@@ -213,7 +213,7 @@
 (681,684) : set()
 (684,687) : {'bridge'}
 (687,692) : {'BLAN'}
-(692,695) : {'routing', 'bridge'}
+(692,695) : {'bridge', 'routing'}
 (695,697) : {'bridge'}
 (697,700) : {'routing'}
 (700,703) : {'封包'}
@@ -236,10 +236,10 @@
 (755,760) : set()
 (760,761) : set()
 (761,764) : set()
-(764,766) : {'filtering', 'database'}
+(764,766) : {'database', 'filtering'}
 (766,769) : {'database'}
 (769,771) : set()
-(771,774) : {'database', 'frame'}
+(771,774) : {'frame', 'database'}
 (774,778) : set()
 (778,781) : set()
 (781,782) : set()

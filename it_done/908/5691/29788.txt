@@ -35,8 +35,8 @@
 (110,113) : set()
 (113,117) : set()
 (117,119) : set()
-(119,122) : {'congestion', 'RTT', 'window'}
-(122,126) : {'rate', 'translation'}
+(119,122) : {'congestion', 'window', 'RTT'}
+(122,126) : {'translation', 'rate'}
 (127,129) : {'RTT'}
 (130,134) : {'congestion', 'window'}
 (134,136) : set()
@@ -71,7 +71,7 @@
 (223,225) : set()
 (225,227) : {'RTT'}
 (227,230) : {'封包', 'ack'}
-(230,234) : {'congestion', 'RTT', 'window'}
+(230,234) : {'congestion', 'window', 'RTT'}
 (234,236) : set()
 (236,239) : set()
 (239,246) : {'ack'}

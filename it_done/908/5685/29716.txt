@@ -1,21 +1,21 @@
 (8,10) : set()
-(10,13) : {'CD', 'CSMA'}
-(13,16) : {'CD', 'CSMA'}
-(16,20) : {'detection', 'carrier', 'sense', 'collision'}
+(10,13) : {'CSMA', 'CD'}
+(13,16) : {'CSMA', 'CD'}
+(16,20) : {'sense', 'carrier', 'detection', 'collision'}
 (20,24) : set()
 (24,29) : {'網卡'}
 (29,33) : {'link'}
 (33,38) : {'網段'}
 (38,40) : set()
 (40,44) : {'封包'}
-(44,46) : {'carrier', 'sense'}
+(44,46) : {'sense', 'carrier'}
 (46,51) : set()
 (51,55) : set()
 (55,59) : set()
 (59,60) : set()
 (60,65) : {'封包'}
-(65,66) : {'carrier', 'sense'}
-(66,71) : {'detection', '封包', 'collision'}
+(65,66) : {'sense', 'carrier'}
+(66,71) : {'封包', 'detection', 'collision'}
 (71,76) : {'封包'}
 (76,79) : set()
 (79,82) : set()
@@ -95,10 +95,10 @@
 (322,325) : set()
 (325,329) : {'collision'}
 (329,332) : set()
-(332,337) : {'CD', 'CSMA'}
+(332,337) : {'CSMA', 'CD'}
 (337,342) : {'control'}
 (342,345) : set()
-(345,350) : {'CD', 'CSMA'}
+(345,350) : {'CSMA', 'CD'}
 (350,353) : set()
 (353,356) : set()
 (356,358) : set()
@@ -130,7 +130,7 @@
 (441,444) : set()
 (444,445) : {'collision'}
 (445,448) : set()
-(448,452) : {'CD', 'detection', 'CSMA', 'collision'}
+(448,452) : {'CSMA', 'CD', 'detection', 'collision'}
 (452,455) : set()
 (455,459) : set()
 (459,463) : set()

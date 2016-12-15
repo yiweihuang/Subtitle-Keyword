@@ -105,7 +105,7 @@
 (300,303) : {'window'}
 (303,306) : {'封包'}
 (307,312) : set()
-(312,316) : {'buffer', 'receiver'}
+(312,316) : {'receiver', 'buffer'}
 (316,320) : set()
 (320,321) : set()
 (322,323) : set()
@@ -138,7 +138,7 @@
 (405,408) : {'ack', 'RTT'}
 (408,410) : {'RTT'}
 (411,412) : set()
-(413,415) : {'congestion', 'RTT', 'window'}
+(413,415) : {'congestion', 'window', 'RTT'}
 (415,418) : set()
 (418,421) : {'rate', 'transmission'}
 (421,422) : set()
@@ -147,7 +147,7 @@
 (429,433) : set()
 (433,436) : {'window'}
 (436,439) : set()
-(439,443) : {'buffer', 'receiver'}
+(439,443) : {'receiver', 'buffer'}
 (443,445) : {'window'}
 (445,447) : {'receiver'}
 (447,449) : {'congestion', 'window'}
@@ -194,7 +194,7 @@
 (571,574) : {'receiver', 'control'}
 (574,576) : {'buffer'}
 (576,578) : set()
-(578,582) : {'receiver', 'window'}
+(578,582) : {'window', 'receiver'}
 (582,584) : {'congestion', 'window'}
 (585,586) : set()
 (586,589) : set()

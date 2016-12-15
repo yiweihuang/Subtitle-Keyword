@@ -79,15 +79,15 @@
 (410,413) : {'application'}
 (413,418) : set()
 (418,424) : {'application'}
-(424,427) : {'application', 'queue'}
+(424,427) : {'queue', 'application'}
 (427,430) : {'application'}
 (430,434) : {'buffer'}
-(434,436) : {'buffer', 'application'}
+(434,436) : {'application', 'buffer'}
 (436,441) : {'application'}
 (441,446) : set()
 (446,452) : {'buffer'}
 (452,455) : {'control'}
-(455,465) : {'流量', 'receiver'}
+(455,465) : {'receiver', '流量'}
 (465,469) : set()
 (469,476) : {'receiver'}
 (476,481) : {'receiver', 'control'}
@@ -95,7 +95,7 @@
 (487,492) : set()
 (492,494) : {'control'}
 (494,502) : {'receiver'}
-(502,508) : {'internet', 'receiver'}
+(502,508) : {'receiver', 'internet'}
 (508,512) : {'internet'}
 (512,516) : set()
 (516,521) : set()
@@ -104,16 +104,16 @@
 (529,534) : {'通訊'}
 (534,539) : set()
 (539,544) : {'internet'}
-(544,550) : {'internet', '封包'}
+(544,550) : {'封包', 'internet'}
 (550,556) : {'control'}
 (556,562) : {'receiver'}
-(562,566) : {'internet', '封包'}
+(562,566) : {'封包', 'internet'}
 (566,570) : set()
 (570,576) : {'router', 'internet'}
-(576,581) : {'internet', '封包'}
+(576,581) : {'封包', 'internet'}
 (581,586) : {'internet'}
 (586,592) : {'封包', 'control'}
-(592,599) : {'internet', '封包'}
+(592,599) : {'封包', 'internet'}
 (599,613) : {'封包', 'control'}
 (613,619) : set()
 (619,626) : {'receiver', 'control'}

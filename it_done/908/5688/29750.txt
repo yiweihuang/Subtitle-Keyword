@@ -1,7 +1,7 @@
 (10,10) : set()
 (10,16) : {'link'}
 (16,20) : {'VLAN'}
-(20,24) : {'link', 'VLAN'}
+(20,24) : {'VLAN', 'link'}
 (24,27) : {'封包', 'VLAN'}
 (27,31) : set()
 (31,35) : set()
@@ -27,13 +27,13 @@
 (99,103) : {'link'}
 (103,105) : {'VLAN'}
 (106,108) : set()
-(108,113) : {'tree', 'spanning', 'VLAN'}
+(108,113) : {'VLAN', 'tree', 'spanning'}
 (113,116) : set()
-(116,120) : {'IEEE', 'tree', 'spanning'}
+(116,120) : {'tree', 'spanning', 'IEEE'}
 (120,122) : {'tree', 'spanning'}
 (122,127) : {'eliminate'}
 (127,130) : {'bridge', 'LAN'}
-(130,134) : {'switch', 'bridge'}
+(130,134) : {'bridge', 'switch'}
 (134,135) : set()
 (135,136) : set()
 (136,141) : {'可靠性'}
@@ -52,8 +52,8 @@
 (176,179) : set()
 (179,182) : set()
 (182,186) : set()
-(186,192) : {'tree', 'algorithm', 'spanning'}
-(192,197) : {'loop', 'eliminate'}
+(186,192) : {'tree', 'spanning', 'algorithm'}
+(192,197) : {'eliminate', 'loop'}
 (197,198) : {'tree', 'spanning'}
 (198,204) : {'loop'}
 (204,208) : {'loop'}
@@ -62,14 +62,14 @@
 (215,218) : {'tree', 'spanning'}
 (218,220) : set()
 (220,224) : set()
-(224,230) : {'tree', '封包', 'spanning'}
+(224,230) : {'封包', 'tree', 'spanning'}
 (230,233) : {'tree', 'spanning'}
-(233,236) : {'tree', 'loop', 'spanning'}
+(233,236) : {'tree', 'spanning', 'loop'}
 (236,240) : set()
 (240,241) : set()
-(241,246) : {'routing', 'path'}
-(246,250) : {'tree', 'spanning', 'path'}
-(250,256) : {'tree', '封包', 'spanning'}
+(241,246) : {'path', 'routing'}
+(246,250) : {'tree', 'path', 'spanning'}
+(250,256) : {'封包', 'tree', 'spanning'}
 (256,259) : {'tree', 'spanning'}
 (259,263) : {'tree', 'routing', 'spanning'}
 (263,265) : {'routing'}
@@ -80,7 +80,7 @@
 (274,275) : {'tree', 'spanning'}
 (275,278) : {'tree', 'spanning'}
 (278,284) : {'link'}
-(284,287) : {'switch', 'bridge'}
+(284,287) : {'bridge', 'switch'}
 (287,291) : {'tree', 'spanning'}
 (291,294) : {'tree', 'spanning'}
 (294,296) : {'tree', 'spanning'}
@@ -90,13 +90,13 @@
 (305,310) : set()
 (310,312) : {'tree', 'spanning'}
 (312,317) : {'VLAN'}
-(317,320) : {'tree', 'spanning', 'VLAN'}
+(317,320) : {'VLAN', 'tree', 'spanning'}
 (320,323) : set()
 (323,325) : {'VLAN'}
 (325,329) : {'VLAN'}
 (329,331) : {'VLAN'}
-(331,339) : {'tree', '封包', 'spanning', 'VLAN'}
-(339,347) : {'tree', 'spanning', 'VLAN'}
+(331,339) : {'封包', 'VLAN', 'tree', 'spanning'}
+(339,347) : {'VLAN', 'tree', 'spanning'}
 (347,350) : set()
 (350,355) : {'VLAN'}
 (355,359) : {'VLAN'}
@@ -113,18 +113,18 @@
 (394,398) : {'VLAN'}
 (398,401) : {'tree', 'spanning'}
 (401,404) : set()
-(404,409) : {'tree', 'spanning', 'VLAN'}
-(409,415) : {'tree', 'routing', 'spanning', 'path'}
+(404,409) : {'VLAN', 'tree', 'spanning'}
+(409,415) : {'tree', 'path', 'routing', 'spanning'}
 (415,417) : set()
 (417,422) : {'VLAN'}
 (422,426) : set()
 (426,428) : {'tree', 'spanning'}
 (428,431) : {'tree', 'spanning'}
-(431,436) : {'tree', 'spanning', 'VLAN'}
+(431,436) : {'VLAN', 'tree', 'spanning'}
 (436,438) : set()
 (438,442) : set()
 (442,447) : set()
-(447,454) : {'tree', 'spanning', 'VLAN'}
+(447,454) : {'VLAN', 'tree', 'spanning'}
 (454,456) : {'tree', 'spanning'}
 (456,459) : {'VLAN'}
 (459,468) : set()
@@ -146,10 +146,10 @@
 (534,537) : {'tree', 'spanning'}
 (537,544) : {'VLAN'}
 (544,550) : {'bridge'}
-(550,554) : {'switch', '封包'}
+(550,554) : {'封包', 'switch'}
 (554,562) : {'封包', 'VLAN'}
 (562,564) : {'VLAN'}
-(564,570) : {'switch', 'bridge'}
+(564,570) : {'bridge', 'switch'}
 (570,575) : set()
 (575,579) : {'VLAN'}
 (579,581) : set()

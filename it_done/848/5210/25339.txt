@@ -1,22 +1,22 @@
 (0,4) : {'Firewall'}
 (4,6) : {'防火牆'}
 (6,9) : set()
-(9,12) : {'filter', 'packet'}
+(9,12) : {'packet', 'filter'}
 (12,16) : set()
 (16,21) : set()
 (21,26) : {'ACL'}
 (26,31) : set()
 (31,35) : set()
 (35,39) : {'IP'}
-(39,43) : {'filter', 'packet'}
+(39,43) : {'packet', 'filter'}
 (43,46) : {'Application'}
 (46,51) : {'SOCKS'}
 (51,54) : {'Application'}
 (54,57) : {'Application'}
 (57,59) : {'Application'}
-(59,63) : {'filter', 'packet'}
+(59,63) : {'packet', 'filter'}
 (63,67) : {'Application'}
-(67,72) : {'Inspection', 'filter', 'Stateful'}
+(67,72) : {'Stateful', 'Inspection', 'filter'}
 (72,74) : set()
 (74,77) : {'table'}
 (77,80) : set()
@@ -39,7 +39,7 @@
 (142,148) : {'Proxy', 'Application'}
 (148,153) : set()
 (153,156) : {'Filter'}
-(156,160) : {'Inspection', 'Stateful'}
+(156,160) : {'Stateful', 'Inspection'}
 (160,166) : {'table'}
 (166,167) : set()
 (167,172) : set()

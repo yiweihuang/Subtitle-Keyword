@@ -11,11 +11,11 @@
 (43,47) : set()
 (47,52) : set()
 (52,55) : {'delay', 'bandwidth'}
-(55,60) : {'pipe', 'latency', 'delay'}
+(55,60) : {'delay', 'latency', 'pipe'}
 (60,64) : set()
 (64,66) : {'pipe'}
 (66,69) : set()
-(69,74) : {'pipe', 'latency'}
+(69,74) : {'latency', 'pipe'}
 (74,78) : {'pipe', 'bandwidth'}
 (78,81) : set()
 (81,84) : {'delay', 'bandwidth'}
@@ -41,8 +41,8 @@
 (155,157) : set()
 (157,160) : {'latency', 'bandwidth'}
 (160,166) : {'latency', 'bandwidth'}
-(166,170) : {'bandwidth', 'transmission'}
-(170,173) : {'bandwidth', 'transmission'}
+(166,170) : {'transmission', 'bandwidth'}
+(170,173) : {'transmission', 'bandwidth'}
 (173,175) : {'propagation', 'latency'}
 (175,178) : set()
 (178,181) : {'delay', '頻寬'}
@@ -82,7 +82,7 @@
 (285,288) : {'封包'}
 (288,293) : set()
 (293,299) : {'latency', 'jitter'}
-(299,302) : {'variance', 'latency'}
+(299,302) : {'latency', 'variance'}
 (302,305) : set()
 (305,307) : set()
 (307,312) : set()
@@ -238,7 +238,7 @@
 (791,794) : {'link'}
 (794,797) : {'transport', 'network'}
 (797,799) : {'presentation', 'session'}
-(799,800) : {'application', '七層'}
+(799,800) : {'七層', 'application'}
 (800,806) : set()
 (806,808) : set()
 (808,811) : set()
